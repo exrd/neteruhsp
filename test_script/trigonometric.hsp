@@ -1,0 +1,5 @@
+
+r = deg2rad(60)
+s = sin(r) : c = cos(r) : t = tan(r)
+mes "s=" + s + ":c=" + c + ":t=" + t
+

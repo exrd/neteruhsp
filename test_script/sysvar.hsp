@@ -1,0 +1,25 @@
+
+repeat 3
+	mes ""+cnt
+loop
+
+gosub *i12 : mes ""+stat
+gosub *d13_5 : mes ""+refdval
+gosub *sstr : mes ""+refstr
+
+repeat 1
+	mes ""+looplev
+	repeat 1
+		mes ""+looplev
+	loop
+loop
+
+end
+
+*i12
+	return 12
+*d13_5
+	return 13.5
+*sstr
+	return "string ret"
+

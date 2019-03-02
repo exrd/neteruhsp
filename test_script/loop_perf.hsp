@@ -1,0 +1,12 @@
+
+
+	repeat 10
+		bench
+		sum = 0
+		repeat 100000
+			sum = abs(sum +cnt)
+		loop
+		bench 1
+	loop
+
+

@@ -1,0 +1,18 @@
+
+a = 10 : b = 12.5 : c = "strc"
+c += "neko" : b -= 6.2 : a *= 3
+a |= 3 : a &= 23 : a ^= 49
+mes "a="+a+":b="+b+":c="+c+":cstrlen="+strlen(c)
+
+mes "a0="+peek(a, 0)+":a1="+peek(a, 1)
+mes "b0="+peek(b, 0)+":b1="+peek(b, 1)+":b2="+peek(b, 2)+":b3="+peek(b, 3)
+mes "b4="+peek(b, 4)+":b5="+peek(b, 5)+":b6="+peek(b, 6)+":b7="+peek(b, 7)
+mes "c0="+peek(c, 0)+":c1="+peek(c, 1)+":c2="+peek(c, 2)+":c3="+peek(c, 3)
+
+mes "wa0="+wpeek(a, 0)+":wa1="+wpeek(a, 1)
+mes "wb4="+wpeek(b, 4)+":wb5="+wpeek(b, 5)+":wb6="+wpeek(b, 6)
+mes "wc0="+wpeek(c, 0)+":wc2="+wpeek(c, 2)+":wc3="+wpeek(c, 3)
+
+mes "lb0="+lpeek(b, 0)+":lb4="+wpeek(b, 4)
+mes "lc0="+lpeek(c, 0)+":lb3="+wpeek(c, 3)
+

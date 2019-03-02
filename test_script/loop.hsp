@@ -1,0 +1,4 @@
+
+	if ( 0 > 10 ) : repeat 4 : mes "cnt="+cnt : loop
+
+

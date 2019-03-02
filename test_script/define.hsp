@@ -1,0 +1,13 @@
+
+/*
+*/
+#enum P = -1
+#enum E
+#enum Z
+#define TEST 1
+#define b(%1, %2=cc) "aaaaa"/*aaaaa*/+%1+TEST+%2
+
+#if TEST
+mes b ("bbs")+M_PI+P+E+Z
+#endif
+
