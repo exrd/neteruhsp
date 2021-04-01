@@ -4,6 +4,8 @@ HSPのコンソール版の、更に機能を絞った版です。
 
 [TinyHSPの提案](http://hsp.tv/play/pforum.php?mode=all&num=77515)をボケーっと見ていて何となく作ったもので、実用的なプロジェクトではありませんので注意してください。
 
+※後継として [nidonehsp](https://github.com/exrd/nidonehsp) があります、興味がある型はそちらも参照してみてください。
+
 ## 特徴
 
 以下のような特徴があるかもしれません。
